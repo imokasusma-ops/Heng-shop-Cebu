@@ -41,10 +41,10 @@ export default function Home() {
               <MapPin className="w-4 h-4 mr-2" /> HENG Shop Cebu
             </div>
             <h1 className="text-5xl md:text-7xl font-heading font-bold text-white leading-tight mb-6 uppercase">
-              Motorcycle Parts <span className="text-primary">& Supplies</span>
+              HENG Shop <span className="text-primary">Cebu</span>
             </h1>
             <p className="text-lg md:text-xl text-metallic mb-8 font-medium">
-              Budget-friendly Bolts, Oil, Tires & More — Available Daily in Cebu
+              HENG Shop Cebu offers affordable motorcycle parts in Cebu. Bolts, engine oil, tires, and more.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 

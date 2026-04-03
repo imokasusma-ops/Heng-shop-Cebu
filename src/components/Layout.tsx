@@ -48,7 +48,7 @@ export default function Layout() {
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-2">
                 <Wrench className="h-8 w-8 text-primary" />
-                <span className="font-heading font-bold text-xl tracking-wider text-white">HENG Shop <span className="text-primary">Cebu</span></span>
+                <span className="font-heading font-bold text-xl tracking-wider text-white">HENG Shop Cebu</span>
               </Link>
             </div>
 
@@ -127,10 +127,10 @@ export default function Layout() {
             <div className="col-span-1 md:col-span-1">
               <Link to="/" className="flex items-center space-x-2 mb-4">
                 <Wrench className="h-6 w-6 text-primary" />
-                <span className="font-heading font-bold text-lg tracking-wider text-white">HENG Shop <span className="text-primary">Cebu</span></span>
+                <span className="font-heading font-bold text-lg tracking-wider text-white">HENG Shop Cebu</span>
               </Link>
               <p className="text-metallic text-sm mb-4">
-                Affordable motorcycle parts, bolts, and accessories in Cebu. Ready stock available.
+                HENG Shop Cebu offers affordable motorcycle parts, bolts, and accessories in Cebu. Ready stock available.
               </p>
             </div>
             

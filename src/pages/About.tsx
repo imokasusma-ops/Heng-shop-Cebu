@@ -6,7 +6,7 @@ export default function About() {
       {/* Header */}
       <section className="bg-dark py-16 border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">ABOUT HENG SHOP CEBU</h1>
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4 uppercase tracking-tight">About HENG Shop Cebu</h1>
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-xl text-metallic max-w-2xl mx-auto">
             Your trusted local source for affordable, reliable motorcycle parts and accessories in Cebu.
@@ -26,7 +26,7 @@ export default function About() {
               />
             </div>
             <div className="w-full md:w-1/2">
-              <h2 className="text-3xl font-heading font-bold text-white mb-6">BUILT BY RIDERS, FOR RIDERS</h2>
+              <h2 className="text-3xl font-heading font-bold text-white mb-6 uppercase tracking-tight">Built by Riders, for Riders</h2>
               <p className="text-metallic mb-4 text-lg">
                 HENG Shop Cebu started with a simple goal: to provide Cebuano riders with a reliable, affordable place to get the parts they need for their daily commute. We know how important your motorcycle is for getting around the city, and we believe maintaining it shouldn't break the bank.
               </p>

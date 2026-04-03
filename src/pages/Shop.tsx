@@ -14,7 +14,7 @@ export default function Shop() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="mb-12 text-center">
-        <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4 uppercase">SHOP BY CATEGORY</h1>
+        <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4 uppercase tracking-tight">Shop HENG Shop Cebu</h1>
         <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
         <p className="text-lg text-metallic max-w-2xl mx-auto">
           Browse our categories below. If you need a specific part, send us a message on Facebook and we'll check our inventory for you.
