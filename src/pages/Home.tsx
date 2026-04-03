@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { ShieldCheck, Wrench, Zap, Clock, Star, MapPin, ArrowRight, CheckCircle2, MessageCircle, CircleDashed, Lightbulb, Droplets, Circle, ShoppingBag, Truck, CheckCircle } from 'lucide-react';
+import { ShieldCheck, Wrench, Zap, Clock, Star, MapPin, ArrowRight, CheckCircle2, MessageCircle, CircleDashed, Droplets, Circle, ShoppingBag, Truck, CheckCircle } from 'lucide-react';
 import { categories } from '../data/mockData';
 
 const IconMap: Record<string, React.ElementType> = {
   CircleDashed,
-  Lightbulb,
   Droplets,
   Circle,
   Zap
@@ -131,7 +130,7 @@ export default function Home() {
                 <Link 
                   key={category.id} 
                   to={`/shop?category=${category.id}`}
-                  className="group relative h-56 overflow-hidden rounded-xl block border border-gray-800 bg-darker hover:border-primary hover:-translate-y-1 transition-all duration-300"
+                  className={`group relative h-56 overflow-hidden rounded-xl block border border-gray-800 bg-darker hover:border-primary hover:-translate-y-1 transition-all duration-300 ${index === 3 ? 'lg:col-start-2' : ''}`}
                 >
                   {category.image ? (
                     <>

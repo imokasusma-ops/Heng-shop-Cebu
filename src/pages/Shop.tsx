@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MessageCircle, CircleDashed, Lightbulb } from 'lucide-react';
+import { MessageCircle, CircleDashed, Droplets, Circle, Zap } from 'lucide-react';
 import { categories } from '../data/mockData';
 
 const IconMap: Record<string, React.ElementType> = {
   CircleDashed,
-  Lightbulb
+  Droplets,
+  Circle,
+  Zap
 };
 
 export default function Shop() {
