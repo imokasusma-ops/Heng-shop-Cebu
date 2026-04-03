@@ -11,10 +11,11 @@ export interface Product {
 }
 
 export const categories = [
-  { id: 'bolts', name: 'Bolts & Fasteners', image: 'https://insideracing.com.ph/wp-content/uploads/2020/04/IMG_9481.jpg' },
-  { id: 'oil', name: 'Engine Oil', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgynXICfrYMzxJlXLeyr2MncGXztcb6GFz7w&s' },
-  { id: 'tires', name: 'Tires & Tubes', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTEJ4awDV91N1B0fvglRBl-JZotA0zUiQX3g&s' },
-  { id: 'brakes', name: 'Brake Parts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ACpXTBO-3qQaw-DYvtIEUB--Q9B1ER4V3w&s' },
+  { id: 'bolts', name: 'Bolts & Fasteners', image: 'https://insideracing.com.ph/wp-content/uploads/2020/04/IMG_9481.jpg', icon: 'CircleDashed' },
+  { id: 'oil', name: 'Engine Oil', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgynXICfrYMzxJlXLeyr2MncGXztcb6GFz7w&s', icon: 'Droplets' },
+  { id: 'tires', name: 'Tires & Tubes', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTEJ4awDV91N1B0fvglRBl-JZotA0zUiQX3g&s', icon: 'Circle' },
+  { id: 'brakes', name: 'Brake Parts', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ACpXTBO-3qQaw-DYvtIEUB--Q9B1ER4V3w&s', icon: 'Zap' },
+  { id: 'electrical', name: 'Electrical', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ACpXTBO-3qQaw-DYvtIEUB--Q9B1ER4V3w&s', icon: 'Lightbulb' },
 ];
 
 export const products: Product[] = [];

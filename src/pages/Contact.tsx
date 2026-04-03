@@ -21,19 +21,25 @@ export default function Contact() {
               
               {/* Contact Info */}
               <div className="space-y-8">
-                <div className="flex items-start">
-                  <div className="bg-darker p-4 rounded-full border border-gray-800 mr-6">
+                <a 
+                  href="https://www.google.com/maps/dir/?api=1&destination=Mandaue+Warehouse+Park+S.+Jayme+St.+Paknaan+Mandaue+City" 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="flex items-start group"
+                >
+                  <div className="bg-darker p-4 rounded-full border border-gray-800 mr-6 group-hover:border-primary transition-colors">
                     <MapPin className="w-8 h-8 text-primary" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold text-white mb-2">Visit Our Shop</h4>
+                    <h4 className="text-lg font-bold text-white mb-2 group-hover:text-primary transition-colors">Visit Our Shop</h4>
                     <p className="text-metallic leading-relaxed">
                       Mandaue Warehouse Park, S. Jayme St.,<br />
                       Paknaan, Mandaue City,<br />
-                      Mandaue City, Philippines
+                      Cebu, Philippines
                     </p>
+                    <span className="text-primary text-xs font-bold uppercase tracking-widest mt-2 block">Click for Directions →</span>
                   </div>
-                </div>
+                </a>
                 
                 <div className="flex items-start">
                   <div className="bg-darker p-4 rounded-full border border-gray-800 mr-6">
@@ -41,7 +47,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-bold text-white mb-2">Call or Text Us</h4>
-                    <a href="tel:+639060471550" className="text-metallic hover:text-primary transition-colors text-lg">
+                    <a href="tel:+639060471550" className="text-metallic hover:text-primary transition-colors text-xl font-bold">
                       +63 906 047 1550
                     </a>
                   </div>
@@ -53,10 +59,13 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-bold text-white mb-2">Store Hours</h4>
-                    <p className="text-metallic">
+                    <p className="text-metallic mb-1">
                       Monday - Saturday: 8:00 AM - 6:00 PM<br />
                       Sunday: Closed
                     </p>
+                    <div className="inline-flex items-center px-2 py-0.5 rounded bg-green-500/10 text-green-500 text-[10px] font-bold uppercase tracking-widest border border-green-500/20">
+                      Open today: 8AM–6PM
+                    </div>
                   </div>
                 </div>
               </div>
@@ -70,9 +79,9 @@ export default function Contact() {
                     href="https://www.facebook.com/HengShopUBEC/" 
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center justify-center w-full md:w-auto bg-primary hover:bg-primary-dark text-darker px-8 py-4 rounded font-bold uppercase tracking-wider transition-all shadow-[0_0_15px_rgba(255,106,0,0.3)] hover:shadow-[0_0_20px_rgba(255,106,0,0.5)]"
+                    className="inline-flex items-center justify-center w-full bg-primary hover:bg-primary-dark text-darker px-8 py-5 rounded-xl font-black uppercase tracking-widest transition-all shadow-[0_0_25px_rgba(255,106,0,0.4)] hover:shadow-[0_0_35px_rgba(255,106,0,0.6)] hover:-translate-y-1 text-lg"
                   >
-                    <MessageCircle className="w-5 h-5 mr-2" /> Message Us
+                    <MessageCircle className="w-6 h-6 mr-3" /> MESSAGE US NOW
                   </a>
                 </div>
 

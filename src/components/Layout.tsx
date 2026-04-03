@@ -23,6 +23,11 @@ export default function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col font-sans bg-darker text-white">
+      {/* Promo Banner */}
+      <div className="bg-primary text-darker text-[10px] sm:text-xs py-1.5 px-4 text-center font-bold uppercase tracking-widest">
+        ✔ Bolts, Oil, Tires — Available Daily in Cebu!
+      </div>
+
       {/* Top Bar */}
       <div className="bg-dark text-metallic text-xs py-2 px-4 hidden md:block border-b border-gray-800">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
@@ -157,11 +162,18 @@ export default function Layout() {
               <ul className="space-y-3 text-sm text-metallic">
                 <li className="flex items-start">
                   <MapPin className="w-5 h-5 mr-2 text-primary shrink-0" />
-                  <span>Mandaue Warehouse Park, S. Jayme St., Paknaan, Mandaue City, Philippines</span>
+                  <a 
+                    href="https://www.google.com/maps/dir/?api=1&destination=Mandaue+Warehouse+Park+S.+Jayme+St.+Paknaan+Mandaue+City" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    className="hover:text-primary transition-colors"
+                  >
+                    Mandaue Warehouse Park, S. Jayme St., Paknaan, Mandaue City, Philippines
+                  </a>
                 </li>
                 <li className="flex items-center">
                   <Phone className="w-5 h-5 mr-2 text-primary shrink-0" />
-                  <span>+63 906 047 1550</span>
+                  <a href="tel:+639060471550" className="hover:text-primary transition-colors font-bold">+63 906 047 1550</a>
                 </li>
                 <li className="flex items-center">
                   <Clock className="w-5 h-5 mr-2 text-primary shrink-0" />
@@ -194,6 +206,19 @@ export default function Layout() {
       
       {/* Spacer for mobile sticky CTA */}
       <div className="h-20 md:h-0"></div>
+
+      {/* Desktop Floating Messenger Button */}
+      <a 
+        href="https://www.facebook.com/HengShopUBEC/" 
+        target="_blank" 
+        rel="noreferrer"
+        className="hidden md:flex fixed bottom-8 right-8 bg-primary text-darker p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition-transform items-center group"
+      >
+        <MessageCircle className="w-6 h-6" />
+        <span className="max-w-0 overflow-hidden group-hover:max-w-xs group-hover:ml-2 transition-all duration-300 font-bold whitespace-nowrap">
+          Chat with us
+        </span>
+      </a>
     </div>
   );
 }
